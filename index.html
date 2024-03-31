@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booksky</title>
+    <!-- favicon adding -->
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kdam+Thmor+Pro&family=Madimi+One&family=Oswald:wght@200..700&family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@200;400;600&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <div class="navbar">
+      <h1>Booksky</h1>
+    </div>
+
+    <div class="bookSection">
+      <div class="bookSection-section">
+
+     
+      <h2>Start with WHY</h2>
+      <h3>Simon Sinek</h3>
+      <p>
+        Start With Why is a book by Simon Sinek that explains how great leaders inspire others by putting their purpose or mission at the core of everything they do.
+      </p>
+      <button onclick="deleting(event)">Delete</button>
+    </div>
+
+   
+    </div>
+
+   
+
+
+    <div class="overLay" id="overlaying"></div>
+    <div class ="pop-up-window" id="popUpWindow">
+        <h2>Add Book</h2>
+        <form>
+        <input type="text" placeholder="Book Title" id="bookTitle">
+        <input type="text" placeholder="Book Author" id="bookAuthor"> 
+        <textarea placeholder="short description.." id="bookDescription"></textarea>
+        <button id="Add-popup-one">Add</button>
+        <button id="Cancel-popup">Cancel</button>
+        </form>
+    </div>
+    
+    <button class="pop-up-button" id="add-popup-button">+</button>
+    <script src="script.js">
+
+    </script>
+  </body>
+</html>
